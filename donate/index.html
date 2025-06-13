@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Ryujin - Ko-fi Donations</title>
+    <link rel="icon" href="https://cdn.moongetsu.ro/Ryujin/Website/Ryujin_Branding.png" type="image/x-icon">
+
+    <!-- Meta Tags -->
+    <meta name="twitter:site" content="@moongetsu">
+    <meta name="twitter:title" content="Support Ryujin">
+    <meta name="twitter:description" content="Support Ryujin's development through Ko-fi donations">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image:src" content="https://cdn.moongetsu.ro/Ryujin/Website/Ryujin_Branding.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        :root {
+            --primary: #FFFFFF;
+            --secondary: #E5E5E5;
+            --dark: #000000;
+            --light: #FFFFFF;
+            --accent: #CCCCCC;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--dark);
+            color: var(--light);
+            padding-top: 76px;
+        }
+
+        .navbar {
+            background: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .navbar-nav .nav-link {
+            color: var(--light) !important;
+        }
+
+        .card {
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--light);
+            transition: transform 0.3s ease;
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 3rem;
+            color: var(--light);
+            text-align: center;
+            width: 100%;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            border-radius: 2px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            border: none;
+            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+            color: var(--dark);
+        }
+
+        .btn-primary:hover {
+            background: linear-gradient(135deg, var(--accent), var(--primary));
+            transform: translateY(-2px);
+            color: var(--dark);
+        }
+
+        .feature-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            margin: 0 auto 1.5rem;
+            color: var(--dark);
+            box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="https://cdn.moongetsu.ro/Ryujin/Website/Ryujin_Branding.png" alt="Ryujin Logo" width="40" height="40" class="rounded-circle me-2">
+                <span class="fw-bold">RYUJIN</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://ryujin.moongetsu.xyz">Home</a>
+                    </li>
+                    <li class="nav-item"></li>
+                        <a class="nav-link" href="https://ryujin.moongetsu.xyz/donate">Donate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://ryujin.moongetsu.xyz/commands">Commands</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://ryujin.moongetsu.xyz/termsprivacy">Terms & Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://discord.com/invite/VADaEna5XQ" target="_blank">Support Server</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://ryujin.moongetsu.xyz/roadmap" target="_blank">Roadmap & Ideas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Support Section -->
+    <section class="py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold text-center section-title" data-aos="fade-up">Support Ryujin's Development</h1>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="card p-5" data-aos="fade-up">
+                        <div class="feature-icon mb-4">
+                            <i class="fas fa-heart text-danger"></i>
+                        </div>
+                        <h2 class="h3 mb-4">Why Support Us?</h2>
+                        <p class="mb-4">Your support means the world to us! It not only helps maintain and improve Ryujin but also gives us the motivation to keep creating amazing features for our wonderful editing community. Every donation, no matter how small, makes a huge difference!</p>
+                        
+                        <div class="row mb-4">
+                            <div class="col-md-4 mb-3">
+                                <div class="card h-100 p-3 border-primary">
+                                    <i class="fas fa-server mb-3 text-primary"></i>
+                                    <h5>Server Costs</h5>
+                                    <p class="small mb-0">Keeping Ryujin online 24/7 to serve you better</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card h-100 p-3 border-success">
+                                    <i class="fas fa-code mb-3 text-success"></i>
+                                    <h5>New Features</h5>
+                                    <p class="small mb-0">Development of exciting new tools and capabilities</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card h-100 p-3 border-info">
+                                    <i class="fas fa-rocket mb-3 text-info"></i>
+                                    <h5>Motivation</h5>
+                                    <p class="small mb-0">Fueling our passion to make Ryujin even better</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="mb-4">Join our amazing supporters and help shape the future of Ryujin!</p>
+
+                        <a href="https://ko-fi.com/ryujinsupport" target="_blank" class="btn btn-primary btn-lg px-5 py-3 animate__animated animate__pulse animate__infinite" data-aos="fade-up">
+                            <i class="fas fa-coffee me-2"></i>Support on Ko-fi
+                        </a>
+                        
+                        <div class="mt-4">
+                            <p class="small">Every supporter gets a special role in our Discord server! ❤️</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="text-center">
+                <p class="mb-4">&copy; Moongetsu Systems (2020-2024) | &copy; Ryujin Discord Bot (2023-2024)</p>
+                <p class="small">Designed with ❤️ by moongetsu</p>
+                <div class="d-flex justify-content-center gap-4">
+                    <a href="https://ryujin.moongetsu.xyz/termsprivacy" class="text-light text-decoration-none">
+                        <i class="fas fa-shield-alt me-2"></i>Terms & Privacy
+                    </a>
+                    <a href="https://discord.com/invite/VADaEna5XQ" target="_blank" class="text-light text-decoration-none">
+                        <i class="fas fa-headset me-2"></i>Support Server
+                    </a>
+                    <a href="https://discord.com/oauth2/authorize?client_id=1060316037997936751&permissions=277025705025&scope=bot" target="_blank" class="text-light text-decoration-none">
+                        <i class="fas fa-book me-2"></i>Add to Server
+                    </a>
+                    <a href="https://discord.com/guidelines" target="_blank" class="text-light text-decoration-none">
+                        <i class="fas fa-users me-2"></i>Discord Comunity Guidelines
+                    </a>
+                    <a href="https://ryujin.moongetsu.xyz/roadmap" target="_blank" class="text-light text-decoration-none">
+                        <i class="fab fa-trello me-2"></i>Roadmap & Ideas
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+</body>
+</html>
