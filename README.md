@@ -21,7 +21,7 @@
 
 ## 📚 About
 
-Welcome to the Ryujin Discord Bot project! This repository hosts the source code for our stunning landing page, designed to showcase the bot's capabilities and provide an engaging experience for potential users. Built with cutting-edge web technologies, our platform combines aesthetics with functionality.
+Welcome to the Ryujin's Website project! This repository hosts the source code for our stunning landing page, designed to showcase the bot's capabilities and provide an engaging experience for potential users. Built with cutting-edge web technologies, our platform combines aesthetics with functionality.
 
 ## 🎯 Features
 
